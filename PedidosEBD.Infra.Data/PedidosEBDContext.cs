@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Design;
+using Pedidos.Domain.Models;
 
 namespace PedidosEBD.Infra.Data
 {
@@ -13,5 +10,7 @@ namespace PedidosEBD.Infra.Data
         {
 
         }
+
+        public DbSet<Cargo> Cargos { get; set; }
     }
 }

@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Pedidos.Application\Pedidos.Application.csproj" />
     <ProjectReference Include="..\PedidosEBD.Infra.Data\PedidosEBD.Infra.Data.csproj" />
   </ItemGroup>
 
