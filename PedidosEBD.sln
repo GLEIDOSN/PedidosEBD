@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pedidos", "Pedidos", "{D2FA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Testes", "Pedidos.Tests\Pedidos.Testes.csproj", "{9AD7598B-9EB8-4002-A7FE-221A9277F985}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Api", "Pedidos.Api\Pedidos.Api.csproj", "{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{9AD7598B-9EB8-4002-A7FE-221A9277F985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD7598B-9EB8-4002-A7FE-221A9277F985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD7598B-9EB8-4002-A7FE-221A9277F985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{954473D7-A2C1-4C01-B92E-224665856914} = {C02DDBDD-4D8F-4D16-A2ED-B0E2A9E80288}
 		{D2FA1D07-0FC2-4FFB-A87A-0F712BBF65D7} = {79184CFC-0A84-4601-8B6D-9686F2A539EE}
 		{9AD7598B-9EB8-4002-A7FE-221A9277F985} = {D2FA1D07-0FC2-4FFB-A87A-0F712BBF65D7}
+		{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D} = {639A66E2-48E8-4E18-AAD1-9090EAEA26F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {569D9A8A-CC56-4035-915B-CD12A329B20D}
