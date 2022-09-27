@@ -33,11 +33,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Application", "Pedi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Domain", "Pedidos.Domain\Pedidos.Domain.csproj", "{954473D7-A2C1-4C01-B92E-224665856914}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{79184CFC-0A84-4601-8B6D-9686F2A539EE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{79184CFC-0A84-4601-8B6D-9686F2A539EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pedidos", "Pedidos", "{D2FA1D07-0FC2-4FFB-A87A-0F712BBF65D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Tests", "Pedidos.Tests\Pedidos.Tests.csproj", "{9AD7598B-9EB8-4002-A7FE-221A9277F985}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Testes", "Pedidos.Tests\Pedidos.Testes.csproj", "{9AD7598B-9EB8-4002-A7FE-221A9277F985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
