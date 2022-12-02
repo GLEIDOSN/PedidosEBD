@@ -8,48 +8,48 @@ namespace PedidosEBD.Infra.Data.Repository
 {
     public class CargoRepository : ICargoRepository
     {
-        private readonly PedidosEBDContext _context;
+        private readonly PedidosEBDContext context;
 
         public CargoRepository(PedidosEBDContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         public void Add(Cargo cargo)
         {
-            _context.Add(cargo);
-            _context.SaveChanges();
+            context.Add(cargo);
+            context.SaveChanges();
         }
 
         public async Task<IEnumerable<Cargo>> GetAll()
         {
-            return await _context.Cargos.ToListAsync();
+            return await context.Cargos.ToListAsync();
         }
 
         public async Task<Cargo> GetByID(int id)
         {
-            return await _context.Cargos.FindAsync(id);
+            return await context.Cargos.FindAsync(id);
         }
 
         public bool Remove(int id)
         {
-            var cargo = _context.Cargos.Find(id);
+            var cargo = context.Cargos.Find(id);
             if (cargo == null)
                 return false;
             else
             {
-                _context.Remove(cargo);
-                _context.SaveChanges();
+                context.Remove(cargo);
+                context.SaveChanges();
                 return true;
             }
         }
 
         public void Update(Cargo cargo)
         {
-            _context.Update(cargo);
+            context.Update(cargo);
             try
             {
-                _context.SaveChanges();
+                context.SaveChanges();
             }
             catch
             {

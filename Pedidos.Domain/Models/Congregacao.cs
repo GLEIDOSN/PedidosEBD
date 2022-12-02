@@ -1,6 +1,6 @@
 ﻿namespace Pedidos.Domain.Models
 {
-    public class Cargo
+    public class Congregacao
     {
         public int Id { get; set; }
 

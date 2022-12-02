@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PedidosEBD.Infra.Data;
 
 namespace PedidosEBD.Infra.Data.Migrations
 {
     [DbContext(typeof(PedidosEBDContext))]
-    partial class PedidosEBDContextModelSnapshot : ModelSnapshot
+    [Migration("20221202112426_add_Congregacao")]
+    partial class add_Congregacao
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
