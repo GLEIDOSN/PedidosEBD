@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosEBD.Infra.Data", "PedidosEBD.Infra.Data\PedidosEBD.Infra.Data.csproj", "{634DEF71-364B-4667-856B-E72C431EBF59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosEBD.Infra.Data", "PedidosEBD.Infra.Data\PedidosEBD.Infra.Data.csproj", "{634DEF71-364B-4667-856B-E72C431EBF59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{A0A2D976-AAA1-4C51-9707-15D316513808}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{D00AC488-A5EB-49F1-A070-6632CB82C219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosEBD.Infra.IoC", "PedidosEBD.Infra.IoC\PedidosEBD.Infra.IoC.csproj", "{46A91AB3-A224-4134-97E0-805AA668FE62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosEBD.Infra.IoC", "PedidosEBD.Infra.IoC\PedidosEBD.Infra.IoC.csproj", "{46A91AB3-A224-4134-97E0-805AA668FE62}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{395DC604-03DD-4F07-96A7-6F4E9327CD08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosEBD.Infra.Bus", "PedidosEBD.Infra.Bus\PedidosEBD.Infra.Bus.csproj", "{EE6DF8D2-C71B-4427-91E6-C9E87C0EC844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosEBD.Infra.Bus", "PedidosEBD.Infra.Bus\PedidosEBD.Infra.Bus.csproj", "{EE6DF8D2-C71B-4427-91E6-C9E87C0EC844}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{19892F2F-1277-4281-BE69-3FDAD9406754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosEBD.Domain.Core", "PedidosEBD.Domain\PedidosEBD.Domain.Core.csproj", "{94E66FE2-1B36-4336-8D76-64EFB42096CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PedidosEBD.Domain.Core", "PedidosEBD.Domain\PedidosEBD.Domain.Core.csproj", "{94E66FE2-1B36-4336-8D76-64EFB42096CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservicos", "Microservicos", "{E3F37A61-D350-419C-A127-C002BE61563D}"
 EndProject
@@ -29,17 +29,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C02DDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{639A66E2-48E8-4E18-AAD1-9090EAEA26F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Application", "Pedidos.Application\Pedidos.Application.csproj", "{AD97E43A-24E1-497E-9AAF-784CF96640DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pedidos.Application", "Pedidos.Application\Pedidos.Application.csproj", "{AD97E43A-24E1-497E-9AAF-784CF96640DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Domain", "Pedidos.Domain\Pedidos.Domain.csproj", "{954473D7-A2C1-4C01-B92E-224665856914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pedidos.Domain", "Pedidos.Domain\Pedidos.Domain.csproj", "{954473D7-A2C1-4C01-B92E-224665856914}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{79184CFC-0A84-4601-8B6D-9686F2A539EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pedidos", "Pedidos", "{D2FA1D07-0FC2-4FFB-A87A-0F712BBF65D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Testes", "Pedidos.Tests\Pedidos.Testes.csproj", "{9AD7598B-9EB8-4002-A7FE-221A9277F985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pedidos.Testes", "Pedidos.Tests\Pedidos.Testes.csproj", "{9AD7598B-9EB8-4002-A7FE-221A9277F985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Api", "Pedidos.Api\Pedidos.Api.csproj", "{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pedidos.Api", "Pedidos.Api\Pedidos.Api.csproj", "{925ACBEC-83AA-4882-B5A7-25ECEC7DB58D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

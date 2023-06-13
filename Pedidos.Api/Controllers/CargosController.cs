@@ -3,6 +3,7 @@ using Pedidos.Application.Interfaces;
 using Pedidos.Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Pedidos.Api.Controllers
@@ -23,7 +24,10 @@ namespace Pedidos.Api.Controllers
         public async Task<ActionResult<IEnumerable<Cargo>>> GetAll()
         {
             var listaCargos = await cargoService.GetCargos();
-            return Ok(listaCargos);
+            if (listaCargos.Any())
+                return Ok(listaCargos);
+            else
+                return NotFound();
         }
 
         [HttpGet]
