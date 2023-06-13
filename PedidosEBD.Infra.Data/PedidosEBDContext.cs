@@ -13,5 +13,6 @@ namespace PedidosEBD.Infra.Data
 
         public DbSet<Cargo> Cargos { get; set; }
         public DbSet<Congregacao> Congregacoes { get; set; }
+        public DbSet<Usuario> Usuarios {get; set;}
     }
 }

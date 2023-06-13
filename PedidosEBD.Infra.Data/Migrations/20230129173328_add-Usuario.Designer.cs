@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PedidosEBD.Infra.Data;
 
 namespace PedidosEBD.Infra.Data.Migrations
 {
     [DbContext(typeof(PedidosEBDContext))]
-    partial class PedidosEBDContextModelSnapshot : ModelSnapshot
+    [Migration("20230129173328_add-Usuario")]
+    partial class addUsuario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,8 +57,8 @@ namespace PedidosEBD.Infra.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<bool>("Ativo")
-                        .HasColumnType("bit");
+                    b.Property<int>("Ativo")
+                        .HasColumnType("int");
 
                     b.Property<string>("NomeUsuario")
                         .HasColumnType("nvarchar(max)");

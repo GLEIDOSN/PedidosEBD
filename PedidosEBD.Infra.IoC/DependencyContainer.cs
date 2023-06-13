@@ -14,11 +14,13 @@ namespace PedidosEBD.Infra.IoC
             //Services
             services.AddScoped<ICargoService, CargoService>();
             services.AddScoped<ICongregacaoService, CongregacaoService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
 
             // Data
             services.AddScoped<PedidosEBDContext>();
             services.AddScoped<ICargoRepository, CargoRepository>();
             services.AddScoped<ICongregacaoRepository, CongregacaoRepository>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         }
     }
 }

@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PedidosEBD.Infra.Data;
 
 namespace PedidosEBD.Infra.Data.Migrations
 {
     [DbContext(typeof(PedidosEBDContext))]
-    partial class PedidosEBDContextModelSnapshot : ModelSnapshot
+    [Migration("20230202193500_Alter_table_Usuario_campo_Ativo")]
+    partial class Alter_table_Usuario_campo_Ativo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
